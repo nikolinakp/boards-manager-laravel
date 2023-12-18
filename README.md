@@ -9,3 +9,4 @@ it's the perfect way for each person to express their opinion by voting on an id
 
 The master branch contains all the functions and data written to the sqlite database using the Laravel framework.
 
+

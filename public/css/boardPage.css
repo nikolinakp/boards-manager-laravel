@@ -1,0 +1,329 @@
+.flex-containerMain{
+    display:flex;
+    flex-direction: row;
+    width: 105%;
+}
+body{
+    height: 110%;
+    background-color:#FFE5FF;
+   
+}
+
+.menu{
+   width: 17%;
+   height: 150%;
+
+   background-color:#B23899;
+   text-align: center;
+   border: 3px solid #620050;
+}
+
+.options{
+    text-align: center;
+    font-size: 17px;
+    margin-top: 15%;
+    text-decoration-line: underline;
+}
+.labelMenu{
+    font-size: 40px;
+    margin-top: 100%;
+}
+
+.buttonMenu{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 35px;
+    width: 83%;
+    margin-left: 7%;
+}
+.mainScreen{
+    height: 100%;
+    width: 80%;
+
+    position: relative;
+}
+
+h2{
+    margin-left: 2%;
+}
+
+.flex-containerBoard{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+}
+
+.flex-containerBoard > button{
+    margin-top: 10%;
+}
+
+.flex-containerTask{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.flex-containerTask > button{
+    margin-top: 10%;
+}
+
+.title{
+    color: rgb(0, 0, 0);
+    border: 2px outset rgb(245, 241, 241); 
+    border-radius: 4px;
+    background-color: white;
+    width: 70%;
+    height:30px;
+    margin-left: 12%;
+    transition: transform .2s;
+    margin-bottom: 25%;
+}
+.title:hover{
+    -ms-transform: scale(1.8); /* IE 9 */
+  -webkit-transform: scale(1.8); /* Safari 3-8 */
+  transform: scale(1.8); 
+}
+
+.description{
+    padding: 2%;
+    background-color: white;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    border: 2px outset rgb(245, 241, 241); 
+    width: 90%;
+    height: 45px;
+    margin-left: 2%;
+    margin-bottom: 10%;
+    overflow: scroll;
+}
+
+.editMenu{
+    height: 35vh;
+    width: 40%;
+    border: 5px solid #944594;
+    visibility: hidden;
+    position: absolute;
+    top: 130%;
+    left: 30%;
+    margin: -50px 0 0 -50px;
+}
+
+.editTitle{
+    height: 5hv;
+    width: 14vw;
+    background-color: white;
+    margin: -20vh auto 0;
+    
+}
+.editDescription{
+    height: 10hv;
+    width: 25vw;
+    background-color: white;
+    margin: 1vh auto 0;
+}
+.editTransformation{
+    font-size: 25px;
+    color: #944594;
+}
+.flex-container3{
+    display: flex;
+}
+.flex-container3>button{
+    padding: 2%;
+    height: 40px;
+    width: 60%;
+    color: white;
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 2vh;
+    border: 2px double black;
+    background-color: #944594;
+}
+
+.gray{
+    background-color: gray;
+}
+.white{
+    background-color: white;
+}
+.blue{
+    background-color: #80aaff;
+}
+.purple{
+    background-color: #990099;
+}
+.green{
+   background-color: #00ffbf;
+}
+.yellow{
+    background-color: #ffffb3;
+}
+.lightRed{
+    background-color: rgb(245, 80, 80);
+}
+.textareaAdd{
+    height: 25vh;
+    width: 30vw;
+    border: 2px outset black;
+    border-radius: 5px;
+    
+}
+.flex-container4{
+    display: flex;
+   margin-left: 3%;
+}
+.flex-container4>button{
+    height: 5vh;
+    width: 5vw;
+    margin-left: 1%;
+    margin-top: 5%;
+    border: 2px outset black;
+    border-radius: 5px;
+}
+.flex-container5{
+    display: flex;
+    margin-left: 7%;
+   
+}
+.flex-container5>button{
+    height: 4vh;
+    width: 15vw;
+    color: black;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 5%;
+    border: 2px double black;
+    border-radius: 7px;
+}
+
+#add{
+    visibility: hidden;
+
+    position: absolute;
+    top: 130%;
+    left: 30%;
+    margin: -50px 0 0 -50px;
+}
+.flex-containerSticky{
+    display: flex;
+}
+.smallSticky{
+    margin-left: 2%; 
+    height: 20%; 
+    width:5% ; 
+    padding: 9%;  
+    margin-top: -7%; 
+    border: 1px solid black;  
+    transition: transform .2s;
+}
+.smallSticky:hover{
+    -ms-transform: scale(2); /* IE 9 */
+  -webkit-transform: scale(2); /* Safari 3-8 */
+  transform: scale(2); 
+}
+
+.myCheck{
+    visibility: visible;
+}
+
+.voteButton{
+    width: 7vh;
+    height: 5vw;
+    border: 2px solid rgb(204, 201, 201);
+    background-color: white;
+    border-radius: 12px;
+    font-weight: bold;
+    text-align: left;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    visibility: hidden;
+}
+.textStyle{
+    color: red;
+    font-size: 15px;
+    margin-top: -2%;
+    margin-left: 5%;
+}
+.styleVotes{
+    color: red;
+    font-weight: bold;
+    margin-top: -48%;
+    margin-left: 60%;
+    font-size: 15px;
+}
+.smallButton{
+background-color: white;
+border: 1px solid rgb(204, 201, 201);;
+color: red;
+border-radius: 7px;
+height: 2vh;
+width: 3vw;
+text-align: center;
+position: relative;
+left: 8%;
+top:-35%;
+}
+ 
+#importFiles{
+    border: 1px solid gray;
+    height: 20vh;
+    width: 25vw;
+    background-color: aliceblue;
+    text-align: left;
+    visibility: hidden;
+    position: absolute;
+    left: 25vw;
+    top:30vh;
+}
+#importText{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+#file{
+    text-align: center;
+    margin-left: 2vw;
+    position: relative;
+    top:8%;
+}
+#confirmInformation{
+    height: 3vh;
+    width: 15vw;
+    position: relative;
+    top:25%;
+    left:20%;
+
+}
+
+#downloadCSV{
+    font-size: 30px;
+    color: red;
+    position: relative;
+    left:50vw;
+    top:-10vh;
+}
+
+#createButton{
+    display: none;
+}
+#paragraph{
+    margin-left: 2%;
+    display: none;
+}
+.smallBoards{
+    height: 20vh;
+    width: 20vw;
+    border: 4px solid #620050;
+    margin-left: 2%;
+    text-align: center;
+    font-size: 20px;
+    background-color: #e6e6ff;
+    margin-top: -20vh;
+}
+
+#finalDeleteBoard{
+    display: none;
+}
